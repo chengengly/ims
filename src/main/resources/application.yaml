@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.10.10:3306/usermanage
+    driver-class-name: com.mysql.jdbc.Driver
+    username: test
+    password: test123
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+
